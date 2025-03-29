@@ -1,0 +1,56 @@
+Shift كلك يمين
+open Poersh
+npx create-react-app reactjs2
+
+
+code .
+
+
+لإزالة التثبيت الحالي لـ react و react-dom، استخدم الأمر التالي:
+npm uninstall react react-dom
+
+
+
+للتأكد من أن react و react-dom مثبتان بالإصدار 17.0.2، استخدم هذا الأمر في npm:
+npm install react@17.0.2 react-dom@17.0.2
+
+
+
+
+كود(index.js)
+مسحت اللي فيه وخليت
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+cd reactjs2
+npm start 
+
+
+
+ف النص التاني من الترنميال
+bootstrap 5
+cd reactjs2
+npm install react-bootstrap bootstrap@5.1.3
+
+
+
+react reveal
+npm install react-reveal --save ....x
+npm install react-reveal --force
+
+
+
+
+github
+cd reactjs2
+npm install --save gh-pages
+npm run deploy
+
+npm run build
+npm run deploy
+
+
+
